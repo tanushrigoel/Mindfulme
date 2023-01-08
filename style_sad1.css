@@ -1,0 +1,30 @@
+body{
+    background-color:#fff2eb ;
+    font-family: 'Playfair Display', serif;
+}
+#name{
+    font-size:12px;
+}
+#main{
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+button{
+    background: transparent;
+    padding: 15px;
+    width: 100px;
+}
+#title{
+    color: #803813;
+    font-size: 40px;
+
+}
+#child1{
+    margin-top: 30px;
+}
+#child2{
+    margin-top: 50px;
+    margin-left: 150px;
+}

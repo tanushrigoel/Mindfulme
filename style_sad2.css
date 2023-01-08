@@ -1,0 +1,29 @@
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: #efd2c3;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+img{
+    margin: 50px;
+    height: 500px;
+    width: 500px;
+}
+#cont{
+    font-size: 30px;
+
+}
+#child2{
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+button{
+    background: transparent;
+    padding: 15px;
+    width: 100px;
+}
