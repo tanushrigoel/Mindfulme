@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mood Rater</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Emotional Compass</h1>
+		<h3>
+			IMPROVE YOUR MENTAL HEALTH AND WELL-BEING WITH OUR MOOD-MONITORING TOOL
+		</h3>
+		<div class="lists">
+			<ul>
+				<li>
+					Please take a moment to reflect your current mood on a scale of 1-10
+					from sad to happy.
+				</li>
+				<li>
+					Choose a number on the scale that best represents your current mood.
+				</li>
+			</ul>
+		</div>
+		<div class="moodSliderContainer">
+			<i class="fa-regular fa-face-frown"></i>
+			<input
+				type="range"
+				min="1"
+				max="10"
+				value="5"
+				class="slider"
+				id="myRange"
+			/>
+			<i class="fa-regular fa-face-smile"></i>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
